@@ -1,0 +1,43 @@
+.message-box {
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    line-height: 40px;
+    padding-left: 35px;
+    box-sizing: border-box; 
+}
+
+.info {
+    
+    background-color: mediumpurple;
+    border-color: yellow;
+    background-image: url(images/info.png);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+}
+
+.success { 
+   
+    background-color: lawngreen;
+    background-image: url(images/success.png);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+}
+
+.warning {
+   
+    background-color: yellow;
+    background-image: url(images/warning.png);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+}
+
+.error {
+   
+    background-color: indianred;
+    background-image: url(images/error.png);
+    background-repeat: no-repeat;
+    background-position: 4px 2px;
+}
